@@ -1,0 +1,26 @@
+.flex {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .flex input[type="text"] {
+    width: 250px;
+    border-radius: 20px;
+    border: 1px solid #8B4513; /* Replace with the actual value of variables.$brown */
+    background-color: #FFD700; /* Replace with the actual value of variables.$button */
+    font-size: 24px;
+    color: #000000; /* Replace with the actual value of variables.$font */
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .flex input[type="text"]:focus {
+    border: 1px solid #333333; /* Replace with the actual value of variables.$dark */
+  }
+  
+  .inputError {
+    color: red;
+  }

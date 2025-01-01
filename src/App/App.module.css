@@ -1,0 +1,34 @@
+.nav {
+  height: 100px;
+  background-color: #333; /* Replace with the actual value of variables.$dark */
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  box-shadow: 8px 8px 24px 0px #1a2a37;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.images {
+  display: flex;
+  gap: 20px;
+}
+
+.image {
+  image-rendering: pixelated;
+  width: 60px;
+  height: 60px;
+}
+
+.timer {
+  width: 300px;
+  text-align: left;
+}
+
+@media screen and (max-width: 600px) {
+  .nav {
+    width: 200%;
+  }
+}

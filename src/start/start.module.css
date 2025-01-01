@@ -1,0 +1,31 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .parrot {
+    width: 100px;
+    height: auto;
+    margin-bottom: 30px;
+  }
+  
+  h1 {
+    margin-top: 40px;
+    font-size: 2rem;
+  }
+  
+  p {
+    margin-top: 20px;
+    font-size: 1.2rem;
+  }
+  
+  button {
+    font-family: inherit;
+    margin-top: 60px;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
